@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Slim",
+	"version": "2.3.1",
+	"description": "Slim",
+	"permissions": [],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.nnn.ed.nico/contents/courses/*/chapters/*/*/*"
+			],
+			"css": [
+				"style.css"
+			],
+			"run_at": "document_idle",
+			"all_frames": true
+		}
+	]
+  }

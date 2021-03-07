@@ -1,0 +1,32 @@
+.exercise .section-item .exercise-item {
+	margin: 0 !important;
+	border: 1px solid #cfcfcf !important;
+	border-bottom: 0 !important;
+}
+
+.exercise .section-item .exercise-item:last-child {
+	border-bottom: 1px solid #cfcfcf !important;
+}
+
+.exercise .section-item.question-list ul.answers+.explanation,
+.exercise .section-item .type-descriptive .answers+.explanation {
+	margin-top: 0 !important;
+}
+
+.exercise .section-item.question-list .exercise-item {
+	padding: 0 !important;
+}
+
+.exercise .section-item.explanation {
+	padding: 4px !important;
+}
+
+.exercise .section-item .type-descriptive .answers {
+	padding: 0 9px !important;
+}
+
+.exercise .section-item .type-descriptive[data-type="word"] .answers {
+	height: 27px !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+}
